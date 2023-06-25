@@ -1,0 +1,25 @@
+body{
+	display: flex;
+	flex-direction: column;
+}
+body *{
+	flex: 1;
+}
+.header{
+	background-color: #1F2937;
+	flex-basis: 500px;
+}
+.info{
+	flex-basis: 100px;
+}
+.quote{
+	background-color: #E5E7EB;
+	flex-basis: 300px;
+}
+.sign-up{
+	flex-basis: 100px;
+}
+.footer{
+	background-color: #1F2937;
+	flex-basis: 100px;
+}
