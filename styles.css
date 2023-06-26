@@ -159,4 +159,8 @@ body *{
 .footer{
 	background-color: #1F2937;
 	flex-basis: 100px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
