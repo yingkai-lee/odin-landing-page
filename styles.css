@@ -123,8 +123,38 @@ body *{
 	font-size: 20px;
 	font-weight: 900;
 }
-.sign-up{
-	flex-basis: 100px;
+.final-call{
+	padding: 75px 100px;
+}
+.call-container{
+	background-color: #3882F6;
+	border-radius: 5px;
+
+	display: flex;
+	padding: 40px;
+}
+.call-text{
+	flex: 2;
+}
+.call-line1{
+	color: white;
+	font-size: 20px;
+	font-weight: 550;
+}
+.call-line2{
+	color: lightgray;
+}
+.call-sign{
+	display: flex;
+	justify-content: center;
+}
+.sign-button{
+	border-radius: 5px;
+	border-color: white;
+	background-color: #3882F6;
+	color: white;
+	flex-grow: 0;
+	min-width: 100px;
 }
 .footer{
 	background-color: #1F2937;
