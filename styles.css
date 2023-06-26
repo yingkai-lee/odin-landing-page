@@ -70,8 +70,43 @@ body *{
 }
 
 .info{
-	flex-basis: 100px;
+	flex-basis: 500px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
+.random-info{
+	margin: 0;
+	display: flex;
+	align-items: center;
+	font-size: 36px;
+	font-weight: 900;
+	color: #1F2937;
+}
+.images{
+	flex: 3;
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+}
+.image-div{
+	display: flex;
+	flex-direction: column;
+	max-width: 150px;
+}
+.border-image{
+	border: 3px blue solid;
+	border-radius: 15px;
+	min-width: 140px;
+	min-height: 140px;
+	flex-grow: 0;
+	flex-shrink: 0;
+}
+.image-info{
+	text-align: center;
+	margin: 8px;
+}
+
 .quote{
 	background-color: #E5E7EB;
 	flex-basis: 300px;
